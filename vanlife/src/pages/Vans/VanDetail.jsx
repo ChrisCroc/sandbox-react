@@ -35,7 +35,7 @@ export default function VanDetail() {
               {van.type}
             </i>
             <h2>{van.name}</h2>
-            <p className="van-price">${van.price}<span>/day</span></p>
+            <p className="van-price"><span>${van.price}</span>/day</p>
             <p>{van.description}</p>
             <button className="link-button">Rent this van</button>
           </div>

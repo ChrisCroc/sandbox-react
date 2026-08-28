@@ -20,7 +20,7 @@ export default function HostVans() {
       <div className="host-van-single" key={van.id}>
         <img src={van.imageUrl} alt={`photo of ${van.name}`} />
         <div className="host-van-info">
-          <p>{van.name}</p>
+          <h3>{van.name}</h3>
           <p>${van.price}<span>/day</span></p>
         </div>
       </div>

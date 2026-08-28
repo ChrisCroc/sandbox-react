@@ -95,7 +95,7 @@ footer {
 
 .home-container a {
   display: inline-block;
-  color: white;
+  color: #161616;
   text-decoration: none;
   text-align: center;
   background-color: #ff9b54;
@@ -149,7 +149,7 @@ footer {
 
 .about-page-cta .link-button {
   background-color: #ff9b54;
-  color: white;
+  color: #161616;
   border-radius: 10px;
   text-decoration: none;
 }
@@ -182,11 +182,6 @@ footer {
 .van-tile img {
   max-width: 100%;
   border-radius: 5px;
-}
-
-.van-list-container a {
-  margin-right: 20px;
-  cursor: pointer;
 }
 
 .van-type {
@@ -227,7 +222,6 @@ footer {
 }
 
 .van-type.clear-filters {
-  margin-left: -20px;
   height: 34px;
   padding: 6px 26px;
   font-style: normal;
@@ -237,10 +231,6 @@ footer {
   text-decoration: underline;
   background-color: transparent;
   color: #4D4D4D;
-}
-
-i[class*='van-type-'] {
-  padding: 7px 14px;
 }
 
 .van-detail-container {
